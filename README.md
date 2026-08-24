@@ -93,7 +93,7 @@ project/
 ├── config.py
 ├── covariance.py
 ├── data.py
-├── experiment1.py
+├── experiment.py
 ├── main.py
 ├── plot_results.py
 ├── portfolio.py
@@ -698,7 +698,7 @@ Ledoit-Wolf shrinkage reduces the amplification of noisy covariance directions a
 
 ## 22. Final Conclusion
 
-> **Across the controlled $N/T$ grid, Ledoit-Wolf's advantage increased strongly as $N/T$ rose. Correlations were approximately 0.95–0.98 for portfolio concentration, turnover, realized volatility, and risk-forecast error, 0.92 for covariance-conditioning advantage, and 0.89 for full out-of-sample Sharpe improvement.**
+> **Across the experimental $N/T$ grid, Ledoit-Wolf's advantage increased strongly as $N/T$ rose. Correlations were approximately 0.95–0.98 for portfolio concentration, turnover, realized volatility, and risk-forecast error, 0.92 for covariance-conditioning advantage, and 0.89 for full out-of-sample Sharpe improvement.**
 
 The results therefore support the hypothesis that shrinkage becomes more valuable as the number of assets grows relative to the amount of available historical data.
 
