@@ -1,0 +1,7 @@
+# Requirements for the project
+pandas
+yfinance
+scikit-learn
+matplotlib
+
+scipy
